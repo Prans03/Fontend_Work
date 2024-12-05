@@ -1,0 +1,215 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(/WebProjects/Fonts/gilroy/Gilroy-Light.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gilroy;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.cursor {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  border-radius: 50%;
+  position: fixed;
+  font-size: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 100%;
+}
+
+.left a {
+  text-decoration: none;
+  color: #eee;
+  font-size: larger;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.centre {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50vw;
+  height: 100%;
+}
+.centre a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 100%;
+}
+
+.button {
+  color: #eee;
+  padding: 0.8vw 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: 0.4dvh solid #eee;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+hr {
+  margin: 2vh 7vw;
+}
+
+.body-centre {
+  position: relative;
+  width: 100%;
+  height: 76%;
+}
+
+.body-centre h1 {
+  text-align: center;
+  font-size: 7.5vw;
+  padding-left: 9vw;
+  padding-right: 9vw;
+  text-transform: uppercase;
+  color: #eee;
+}
+
+.overlay {
+  position: absolute;
+  background-color: transparent;
+  top: 1%;
+  left: 30%;
+  margin-bottom: 0.5vh;
+  width: 40vw;
+  height: 40vh;
+  z-index: 1000;
+}
+
+.slice {
+  position: absolute;
+  top: 52%;
+  height: 34vh;
+  width: 100%;
+}
+
+.swiper {
+  margin-bottom: 0.5vh;
+  width: 40vw;
+  height: 40vh;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #eee;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-image: url(/WebProjects/images/photo_2024-11-27_16-49-35.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-image: url(/WebProjects/images/photo_2024-11-27_16-49-36.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(3n) {
+  background-image: url(/WebProjects/images/photo_2024-11-27-16-49-369.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(4n) {
+  background-image: url(/WebProjects/images/photo_2024-11-27_16-49-37.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(5n) {
+  background-image: url(/WebProjects/images/photo_2024-11-27_16-49-371.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(6n) {
+  background-image: url(/WebProjects/images/photo_2024-11-27-16-49-3612.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(7n) {
+  background-image: url(/WebProjects/images/photo_2024-11-27-16-49-365.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(8n) {
+  background-image: url(/WebProjects/images/photo_2024-11-27-16-49-351.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(9n) {
+  background-image: url(/WebProjects/images/photo_2024-11-27-6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(10n) {
+  background-image: url(/WebProjects/images/IMG_20230725_230331570.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+span {
+  color: orangered;
+}
